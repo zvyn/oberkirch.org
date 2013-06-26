@@ -1,3 +1,7 @@
 # Do not commit any non-public keys.
 *key
-*passwd
+*passwd*
+# Files created by package-manager (pacman).
+*.pacnew
+*.pacorig
+*.pacsave
