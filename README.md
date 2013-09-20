@@ -29,5 +29,5 @@ Security Notice
 ---------------
 
 The password you find in `dovecot/dovecot-sql.conf` and `postfix/mysql_virtual_*_maps.cf` is of no use outside of
-localhost. Hiding `/etc/httpd/conf/httpd.conf` is common but obscurity. It can easily be guessed by observing the
-servers behaviour on the client-side.
+localhost. This is not the hole configuration. I recantly changed to nginx and apache only serves owncloud,
+phpmyadmin and some things I was to lazy to reconfigure for nginx.
