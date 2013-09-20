@@ -5,3 +5,7 @@
 *.pacnew
 *.pacorig
 *.pacsave
+*log
+log*
+backup*
+*backup
